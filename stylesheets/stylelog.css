@@ -1,0 +1,250 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*--------------------------------------------------------*/
+
+
+*{
+    text-decoration:none;
+}
+
+
+
+header{
+    background-color:#FFF8FE;
+    height:70px;
+    width:100%;
+
+
+}
+
+header .divlogo{
+    display: block;
+    height:80px;
+    padding-right:40px;
+    padding-left:20px;
+
+    float:left;
+    border-right:3px solid #111;
+    line-height:20px;
+}
+
+
+
+header .logo .logoimg{
+    display:block;
+    padding-right:40px;
+    padding-left:20px;
+    margin:20px 0;
+    height:35px;
+    float:left;
+    text-align:left;
+    border-right:3px solid #111;
+    line-height:30px;
+}
+
+
+body{
+    background-image: url("../images/pink.gif");
+    background-repeat: no-repeat;
+    
+    height:100%;
+}
+
+
+.box{
+    width:300px;
+    padding:20px;
+    position:absolute;
+    margin-top:40px;
+
+    border-radius:50px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,70%);
+    text-align:center;
+}
+
+.box .text{
+    font-family:Oswald;
+}
+
+.box p{
+    margin-top:7px;
+    margin-bottom:7px;
+}
+
+.box h2{
+    color:#111;
+    text-transform:uppercase;
+    font-family: Oswald;
+    font-size:40px;
+    margin-bottom: 25px;
+}
+
+.box h1{
+    color:#111;
+    text-transform:uppercase;
+    font-size:50px;
+    margin-bottom: 25px;
+}
+
+.box input[type="text"], .box input[type="password"]{
+    border:0;
+    background:none;
+    display:block;
+    margin:2px auto;
+    text-align:center;
+    border:2px solid #fd79a8;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:#111;
+    border-radius: 24px;
+    transition:0.25s;
+}   
+
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width: 280px;
+    border-color:#6c5ce7;
+
+}
+
+.box .logbutton{
+    border:0;
+    background:none;
+    display:block;
+    margin:10px auto;
+    text-align:center;
+    border:2px solid #6c5ce7;
+    padding:14px 40px;
+    outline:none;
+    color:#111;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor:pointer;
+}
+
+.box .logbutton:hover{
+    background:#6c5ce7;
+}
+
+.box .other{
+    line-height:20px;
+    margin-bottom: 25px;
+    font-family: Oswald;
+}
+
+.box .other a{
+    color:#9b59b6;
+
+}
+
+.box .other a:hover{
+    text-decoration:underline;
+}
+
+.box .other a:visited{
+    color:#9b59b6;
+}
