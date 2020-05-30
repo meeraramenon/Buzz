@@ -1,2 +1,2 @@
-# Buzz
-A social networking website with php, css and html
+# buzz
+A social networking site called buzz - Let's get buzzing!
